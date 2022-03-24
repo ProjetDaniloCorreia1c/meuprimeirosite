@@ -1,2 +1,10 @@
 body{
 background-color:#FF69B4;}
+
+img{
+    width: 20%;
+}
+
+figure{
+    text-align: center;
+}
