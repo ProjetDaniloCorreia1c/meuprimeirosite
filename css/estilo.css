@@ -1,3 +1,10 @@
+html{
+
+scroll-behavior: smooth;
+
+}
+
+
 body{
 background-color:#dae2cb;}
 
@@ -42,5 +49,33 @@ h2{
 h3{
 
     text-align: center;
+
+}
+
+.botao{
+width: 130px;
+height: 50px;
+background-color:black;
+color: blanchedalmond;
+
+
+
+
+}
+
+.botao p{
+
+padding-top: 9px;
+padding-right: 12px;
+
+
+}
+
+.hino{
+
+text-align: center;
+width: 80px;
+margin: auto;
+
 
 }
