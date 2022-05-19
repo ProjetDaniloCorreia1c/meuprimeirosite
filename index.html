@@ -5,27 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Site</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
     <style>
 
-     p{
-
-
-        background-color: #9dbcbc;
-        text-align: center;
-        
     
-       }
 
-     h1{
-
-        background-color: #9dbcbc;
-        text-decoration: underline;
-        border: 5px dashed #9dbcbc;
-        font-weight: bolder;
-
-    }
-
+    
      h2{
 
         text-decoration: underline #1b1521;
@@ -36,21 +22,32 @@
          border: 5px dashed #9dbcbc; 
       }
 
+      p{
+
+
+         background-color: #9dbcbc;
+         text-align: center;
+
+
+       }     
+
     </style>
     
 
 </head>
 <body style="background-color: #dae2cb;">
-         <header> 
-
-            <h1 style="color:#5a5239;"> Melhores Memes / meu top 3 </h1>
-            <ul>
+         <header>
+        <div class="menu">
+            <div>
+              <h1 style="color:#5a5239;"> Melhores Memes / meu top 3 </h1>
+           <ul>
+            </div class="itens_menu">
 
               <li><a href="#veja">Veja!</a></li>
-              <li><a href="link">Links!</a></li>
+              <li><a href="#link">Links!</a></li>
 
-            </ul>
-
+           </ul>
+            </div> 
          <header>
         <div class="container"> 
            <section id="veja">
@@ -80,7 +77,7 @@
 
                   </figure>
 
-             </section>
+           </section>
                   
 
 
@@ -128,13 +125,13 @@
               Veja o melhor jogador do mundo! <a href="https://www.cristianoronaldo.com">Clique aqui.</a>
 
                 </p>
+
             
                 </section>
         </div>
             
-    
-   
-    
-    
+        <footer>
+          <p class="center"> Desenvolvido por Dancr7 </p>
+       </footer>    
 </body>
 </html>
