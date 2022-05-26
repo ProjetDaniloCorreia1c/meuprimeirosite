@@ -32,11 +32,13 @@ body{
 figure{
 
     text-align: center;
+    margin-bottom: 50px;
 }
  
 .img_corpo{
 
      width: 30%;
+     margin: 1.5em;
     
 }
 
@@ -51,6 +53,7 @@ p{
 
     background-color: #9dbcbc;
     text-align: center;
+    line-height: 1.5em;
     
 
    }
@@ -80,8 +83,8 @@ h3{
 .botao{
  width: 130px;
  height: 50px;
- background-color:black;
- color: blanchedalmond;
+ background-color: #9dbcbc;
+ color:black;
 
 
 
