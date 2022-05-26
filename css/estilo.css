@@ -53,8 +53,8 @@ p{
 
     background-color: #9dbcbc;
     text-align: center;
-    line-height: 1.5em;
-    
+    line-height: 2em;
+    font-size: 1.5em;
 
    }
 
@@ -64,6 +64,7 @@ h1{
     text-decoration: underline;
     border: 5px dashed #9dbcbc;
     font-weight: bolder;
+    font-size: 2em;
 
 }
 
@@ -71,12 +72,14 @@ h1{
 h2{
 
     text-align: center;
+    font-size: 2em;
 
     }
 
 h3{
 
     text-align: center;
+    font-size: 2em;
 
 }
 
@@ -114,7 +117,28 @@ footer{
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 50px;
+    margin-top: 2%;
 
 
+
+}
+
+.direita{
+
+    float: right;
+    width: 15%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-right: 2%;
+    
+
+}
+
+.esquerda{
+
+  float: left;
+  width: 15%;
+  margin-left: 2%;
+  margin-top: 1%;
 
 }
