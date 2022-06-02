@@ -8,12 +8,35 @@ scroll-behavior: smooth;
 
   background-color: #9dbcbc;
   padding: 2%;
+  line-height: 2em;
 
 }
 
 .itens_menu{
-
   text-align: center;
+}
+
+.itens_menu a:link{
+    text-decoration: none;
+    background-color: rgb(101, 101, 240);
+}
+
+.itens_menu a:visited{
+    color: black;
+}
+
+.itens_menu a:hover{
+    font-size: 120%;
+    text-decoration: none;
+
+
+
+}
+
+.itens_menu a:active{ 
+    color: white;
+    text-decoration: line-through;
+
 
 }
 
@@ -84,13 +107,14 @@ h3{
 }
 
 .botao{
+
  width: 130px;
  height: 50px;
- background-color: #9dbcbc;
- color:black;
-
-
-
+ color: whitesmoke;
+ padding: 1%;
+ margin: auto;
+ margin-bottom: 2%;
+ margin-top: 2%;
 
 }
 
@@ -98,8 +122,29 @@ h3{
 
  padding-top: 9px;
  padding-right: 12px;
+ 
 
 
+}
+
+.botao a:link, .botao a:visited{
+
+ color: black;
+ text-decoration: none;
+
+}
+
+.botao a:hover{
+  
+   color: white;
+   font-weight: bold;
+
+}
+
+.botao:hover{
+
+    background-color: #dae2cb;
+    font-size: 120%;
 }
 
 .hino{
@@ -116,7 +161,7 @@ footer{
     background-color: #9dbcbc;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 50px;
+    font-size: 20px;
     margin-top: 2%;
 
 
@@ -140,5 +185,31 @@ footer{
   width: 15%;
   margin-left: 2%;
   margin-top: 1%;
+
+}
+
+a:link{
+
+    text-decoration: none;
+    background-color: rgb(101, 101, 240);
+
+}
+
+a:visited{
+
+    color: black;
+
+}
+
+a:hover{
+
+    font-size: 120%;
+    text-decoration: none;
+}
+
+a:active{
+
+    color: white;
+    text-decoration: line-through;
 
 }
