@@ -85,7 +85,7 @@ h1{
 
     background-color: #9dbcbc;
     text-decoration: underline;
-    border: 5px dashed #9dbcbc;
+    border: 10px dashed #9dbcbc;
     font-weight: bolder;
     font-size: 2em;
 
@@ -211,5 +211,18 @@ a:active{
 
     color: white;
     text-decoration: line-through;
+
+}
+
+table{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th{
+    border: 3px solid red;
+    text-align: left;
+    padding-top: 15px;
 
 }
