@@ -78,6 +78,7 @@ p{
     text-align: center;
     line-height: 2em;
     font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
 
    }
 
@@ -88,6 +89,7 @@ h1{
     border: 10px dashed #9dbcbc;
     font-weight: bolder;
     font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
 
 }
 
