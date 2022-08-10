@@ -91,6 +91,8 @@ h1{
     font-weight: bolder;
     font-size: 2em;
     font-family: 'Roboto Mono', monospace;
+    margin-bottom: 5%;
+    margin-top: 5%;
 
 }
 
@@ -221,12 +223,12 @@ table{
 
     border-collapse: collapse;
     width: 100%;
-    padd
+    
     
 }
 
 td,th{
-    border: 3px solid red;
+    border: 3px solid blue;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
