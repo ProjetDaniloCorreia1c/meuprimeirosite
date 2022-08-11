@@ -29,28 +29,38 @@
         <section>
           <h1>Entre em contato!</h1>
           <div class="formulario">
-            <form action="#">
-              <label for="#">Nome:</label>
-              <input type="escreva"><br><br>
-              <label for="#">Id:</label>
-              <input type="text"><br><br>
-              <label for="#">telefone:</label>
-              <input type="text"><br><br>
-              <label for="#">E-mail</label>
-              <input type="text"><br><br>
-              <label for="#">Assunto:</label>
-              <input type="text"><br><br>
-
-              <input type="submit" value="Submite">
-
-
-
+            <form action="form">
+                <label for="nnome">Nome</label>
+                <input type="text" placeholder="Escreva seu nome:">
+                <label for="tel">Telefone</label>
+                <input type="tel"  placeholder="99999-9999">
+                <label for="email">E-mail</label>
+                <input type="email"  placeholder="email@servidor.com">   
+                
+                <input type="radio" id="adm" name="adm" value="1">
+                <label for="adm">Administrativo</label> 
+                 
+                <input type="radio" id="rec" name="rec" value="2">
+                <label for="rec">Reclamação</label>
+                
+                <input type="radio" id="sug" name="sug" value="3">
+                <label for="sug">Sugestão</label>   
+                 <select name="cars" name="cars">
+                   <option value="sp">São Paulo</option>
+                   <option value="rj">Rio de Janeiro</option>
+                   <option value="sul">Rio Grande do Sul</option>
+                 </select>
+                 <label for="sug">Escreva seu comentario:</label>
+                 <textarea name="#" id="#" cols="50" rows="10"></textarea>  
+                 <input type="submit" value="Enviar">
             </form>
-          </div>
-
+        </div>
 
         </section>
     </div>
+    <footer>
+      <p class="center"> Desenvolvido por Dancr7 </p>
+   </footer>   
     
 </body>
 </html>
