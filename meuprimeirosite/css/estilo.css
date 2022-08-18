@@ -250,47 +250,14 @@ audio::-webkit-media-controls-panel {
   color: #a0276e;
 }
 
-input[type=submit]{
-    background-color: #1499dc;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-    font-family: 'Share Tech Mono', monospace;
+input[type=text],[type=tel],[type=email]{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-.form{
-    background-color: rgba(9, 7, 6, 0.3);
-    border-radius: 15px;
-    padding: 20px;
-    font-family: 'Share Tech Mono', monospace;
-
-}
-
-
-label{
-    width: 50%;
-    display: inline-block;
-    font-family: 'Share Tech Mono', monospace;
-}
-
-.col-25{
-    width: 25%;
-    float: left;
-    font-family: 'Share Tech Mono', monospace;
-}
-
-.col-75{
-    width: 75%;
-    float: left;
-    font-family: 'Share Tech Mono', monospace;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    font-family: 'Share Tech Mono', monospace;
-} 
+  
