@@ -79,7 +79,7 @@ p{
     text-align: center;
     line-height: 2em;
     font-size: 1.5em;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 
    }
 
@@ -90,7 +90,7 @@ h1{
     border: 10px dashed #9dbcbc;
     font-weight: bolder;
     font-size: 2em;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 5%;
     margin-top: 5%;
 
@@ -294,3 +294,20 @@ label{
     clear: both;
     font-family: 'Share Tech Mono', monospace;
 } 
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  input[type=text], select, input[type=tel], input[type=email], input[type=date], textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 90%;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    
+  }
