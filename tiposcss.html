@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS interno</title>
+    <style>
+
+body{
+            background-color: aqua;
+        }
+
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+        p{
+            color: blueviolet;
+        }
+
+        .container{
+            position:relative;
+            background-color: azure;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesq{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: chartreuse;
+
+        }
+
+        .topodir{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: red;
+
+        }
+
+        .baixoesq{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: yellow;
+
+        }
+
+        
+        .baixodir{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color:aqua;
+
+        }
+
+        .centro{
+            position: absolute;
+            width: 20%;
+            background-color:palevioletred;
+            top: 610px;
+            right: 40%;
+
+
+        }
+
+        .fixa{
+
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
+        }
+
+
+
+
+
+        
+
+    </style>
+</head>
+<body>
+<header>
+
+    <h1 class="fixo">Aprendendo CSS interno</h1>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laborum eos magnam laboriosam atque voluptatum, nisi ipsum ipsa vel quas totam voluptas quasi. Dignissimos placeat, aliquid tenetur ipsam nostrum et.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quos qui inventore sequi ipsum et accusantium commodi quas quaerat, dolorum adipisci tenetur deleniti! Vero dicta saepe recusandae necessitatibus nulla?
+        </p>
+    <ul>    
+        <ul style="background-color: aquamarine;font-size: 30px;">
+        <li style="color: beige;"> eu amo essa aula!</li>
+        <li style="color: black;"> follow me dancorreia </li>
+   </ul>
+</header>
+<div class="container">
+    <div class="main">
+        <h1>Testando posições!</h1>
+        <div class="topoesq">topo esquerda</div>
+        <div class="topodir">topo direita</div>
+        <div class="centro">centro</div>
+        <div class="baixoesq">baixo esquerda</div>
+        <div class="baixodir">baixo direita</div>
+    </div>
+</div>
+
+
+
+  
+    
+</body>
+</html>
