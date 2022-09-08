@@ -4,17 +4,44 @@ scroll-behavior: smooth;
 
 }
 
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.imglogo{
+    width: 10%;
+}
+
+.logo{
+    text-align: center;
+    
+}
+
+header{       
+    padding: 2%; 
+    text-align: center; 
+    background-color: #9dbcbc;
+    display: flex;
+    flex-direction: column;    
+
+}
+
+.banner{
+    margin-top: 320px;
+}
+
+
 .menu{
-
   background-color: #9dbcbc;
-  padding: 2%;
-  line-height: 2em;
-  padding-bottom: 50px;
-
 }
 
 .itens_menu{
   text-align: center;
+  line-height: 1.5;
 }
 
 .itens_menu a:link{
@@ -48,8 +75,8 @@ body{
 
 }
 
-.img_topo{
 
+.img_topo{
     width: 100%;
 }
 
@@ -300,6 +327,11 @@ label{
       width: 100%;
       margin-top: 0;
     }
+    header{
+        background-color: #DEB887;
+        flex-direction: row;
+    }
+
   }
 
   input[type=text], select, input[type=tel], input[type=email], input[type=date], textarea{
@@ -311,3 +343,4 @@ label{
     font-family: 'Edu NSW ACT Foundation', cursive;
     
   }
+

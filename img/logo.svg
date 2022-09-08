@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="159mm"
+   height="68mm"
+   viewBox="0 0 159 68"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="136.79451"
+     inkscape:cy="454.64059"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient1693"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1691" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1341">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.62352943"
+         id="stop1337" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1339" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1333">
+      <stop
+         style="stop-color:#d40000;stop-opacity:1;"
+         offset="0"
+         id="stop1329" />
+      <stop
+         style="stop-color:#d40000;stop-opacity:0;"
+         offset="1"
+         id="stop1331" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1315">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.57647055"
+         id="stop1311" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1313" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1315"
+       id="linearGradient1319"
+       x1="77.133682"
+       y1="114.82759"
+       x2="102.75692"
+       y2="114.82759"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1034422,0,0,1.1034422,-39.842714,-93.551396)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1333"
+       id="linearGradient1335"
+       x1="47.529835"
+       y1="116.24694"
+       x2="69.87886"
+       y2="116.24694"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1341"
+       id="linearGradient1343"
+       x1="141.28716"
+       y1="114.82756"
+       x2="171.57368"
+       y2="114.82756"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1034422,0,0,1.1034422,-39.842714,-93.551396)" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.31456;paint-order:markers fill stroke"
+       id="rect1585"
+       width="159.67741"
+       height="67.064522"
+       x="-0.35483688"
+       y="0.35483938" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.0549px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:url(#linearGradient1319);fill-opacity:1;stroke-width:0.291952"
+       x="44.339233"
+       y="51.711433"
+       id="text479"
+       transform="scale(0.98639096,1.0137968)"><tspan
+         sodipodi:role="line"
+         id="tspan477"
+         style="fill:url(#linearGradient1319);fill-opacity:1;stroke-width:0.291952"
+         x="44.339233"
+         y="51.711433">P</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.0549px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:url(#linearGradient1343);fill-opacity:1;stroke-width:0.291952"
+       x="114.03408"
+       y="51.711403"
+       id="text483"
+       transform="scale(0.98639096,1.0137968)"><tspan
+         sodipodi:role="line"
+         id="tspan481"
+         style="fill:url(#linearGradient1343);fill-opacity:1;stroke-width:0.291952"
+         x="114.03408"
+         y="51.711403">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.0549px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#d40000;fill-opacity:1;stroke-width:0.291952"
+       x="8.7087259"
+       y="50.928337"
+       id="text487"
+       transform="scale(0.98639096,1.0137968)"><tspan
+         sodipodi:role="line"
+         id="tspan485"
+         style="fill:#d40000;fill-opacity:1;stroke-width:0.291952"
+         x="8.7087259"
+         y="50.928337">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.0549px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#d40000;stroke-width:0.291952"
+       x="80.752823"
+       y="50.928337"
+       id="text491"
+       transform="scale(0.98639096,1.0137968)"><tspan
+         sodipodi:role="line"
+         id="tspan489"
+         style="fill:#d40000;stroke-width:0.291952"
+         x="80.752823"
+         y="50.928337">F</tspan></text>
+  </g>
+</svg>
