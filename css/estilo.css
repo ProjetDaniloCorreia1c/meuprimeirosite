@@ -1,19 +1,46 @@
 html{
+    scroll-behavior: smooth;
+}
 
-scroll-behavior: smooth;
+body{
+    background-color:#dae2cb;
+    overflow-x: hidden;
+}
+
+header{    
+    padding: 2%; 
+    align-items: center; 
+    background-color: #9dbcbc;
+    display: flex;
+    flex-direction: column;    
 
 }
 
 .fixo{
     position: fixed;
+    width: 100%;
+    z-index: 1000;
     top: 0;
-    left: 0;
-    right: 0;
 }
 
+.itens_menu{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.itens_menu a:visited, .itens_menu a:link{
+    text-decoration: none;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    padding: 1%;
+}
+
+.itens_menu a:hover{
+    background-color: rgba(9, 7, 6, 0.4);
+}   
 
 .imglogo{
-    width: 10%;
+    width: 30%;
 }
 
 .logo{
@@ -21,97 +48,38 @@ scroll-behavior: smooth;
     
 }
 
-header{       
-    padding: 2%; 
-    text-align: center; 
-    background-color: #9dbcbc;
-    display: flex;
-    flex-direction: column;    
-
-}
-
 .banner{
     margin-top: 320px;
 }
-
-
-.menu{
-  background-color: #9dbcbc;
-}
-
-.itens_menu{
-  text-align: center;
-  line-height: 1.5;
-}
-
-.itens_menu a:link{
-    text-decoration: none;
-    background-color: rgb(101, 101, 240);
-}
-
-.itens_menu a:visited{
-    color: black;
-}
-
-.itens_menu a:hover{
-    font-size: 120%;
-    text-decoration: none;
-
-
-
-}
-
-.itens_menu a:active{ 
-    color: white;
-    text-decoration: line-through;
-
-
-}
-
-
-body{
-
-  background-color:#dae2cb;
-
-}
-
 
 .img_topo{
     width: 100%;
 }
 
 figure{
-
     text-align: center;
     margin-bottom: 50px;
 }
  
 .img_corpo{
-
      width: 30%;
-     margin: 1.5em;
-    
+     margin: 1.5em; 
 }
 
 .container{ 
-
     width: 80%;
     margin: auto;
 }
 
 p{
-
-
     background-color: #9dbcbc;
     text-align: center;
     line-height: 2em;
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
-
-   }
+}
 
 h1{
-
     background-color: #9dbcbc;
     text-decoration: underline;
     border: 10px dashed #9dbcbc;
@@ -120,138 +88,95 @@ h1{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 5%;
     margin-top: 5%;
-
 }
 
 
 h2{
-
     text-align: center;
     font-size: 2em;
-
-    }
+}
 
 h3{
-
     text-align: center;
     font-size: 2em;
-
 }
 
 .botao{
-
- width: 130px;
- height: 50px;
- color: whitesmoke;
- padding: 1%;
- margin: auto;
- margin-bottom: 2%;
- margin-top: 2%;
-
-}
-
-.botao p{
-
- padding-top: 9px;
- padding-right: 12px;
- 
-
-
-}
-
-.botao a:link, .botao a:visited{
-
- color: black;
- text-decoration: none;
-
-}
-
-.botao a:hover{
-  
-   color: white;
-   font-weight: bold;
-
+    background-color: #9dbcbc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 2%;
+    width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
 }
 
 .botao:hover{
+    background-color: #a0276e;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
-    background-color: #dae2cb;
-    font-size: 120%;
+.botao a:link, .botao a:visited{
+    color: black;
 }
 
 .hino{
-
- text-align: center;
- width: 80px;
- margin: auto;
-
-
+    text-align: center;
+    width: 80px;
+    margin: auto;
 }
 
-footer{
-    
+footer{ 
     background-color: #9dbcbc;
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 20px;
     margin-top: 2%;
-
-
-
 }
 
 .direita{
-
     float: right;
     width: 15%;
     margin-left: 2%;
     margin-top: 1%;
     margin-right: 2%;
-    
-
 }
 
 .esquerda{
-
-  float: left;
-  width: 15%;
-  margin-left: 2%;
-  margin-top: 1%;
-
+    float: left;
+    width: 15%;
+    margin-left: 2%;
+    margin-top: 1%;
 }
 
 a:link{
-
-    text-decoration: none;
-    background-color: rgb(101, 101, 240);
-
+    text-decoration: none;s
 }
 
 a:visited{
-
     color: black;
-
 }
 
 a:hover{
-
     font-size: 120%;
     text-decoration: none;
 }
 
 a:active{
-
     color: white;
     text-decoration: line-through;
-
 }
 
 table{
-
     border-collapse: collapse;
     width: 100%;
-    
-    
 }
 
 td,th{
@@ -259,7 +184,6 @@ td,th{
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-
 }
 
 td:first-child{
@@ -275,6 +199,15 @@ audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-panel {
   background-color: #a0276e;
   color: #a0276e;
+}
+
+input[type=text], select, input[type=tel], input[type=email], input[type=date], textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 90%;
+    font-family: 'Edu NSW ACT Foundation', cursive;  
 }
 
 input[type=submit]{
@@ -323,24 +256,73 @@ label{
 } 
 
 @media screen and (max-width: 600px) {
+
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
-    header{
-        background-color: #DEB887;
-        flex-direction: row;
+
+    .banner {
+        margin-top: 50%;
     }
 
-  }
+    .descer {
+        margin-top: 50%;
+    }
 
-  input[type=text], select, input[type=tel], input[type=email], input[type=date], textarea{
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    width: 90%;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+@media screen and (min-width: 601px) {
+
+    header {
+        background-color: #9dbcbc;
+        flex-direction: row;
+        padding: 0.5%;
+    }
+
+    .itens_menu {
+        position: absolute;
+        right: 4%;
+        width: 80%;
+    }
+
+    .itens_menu ul {
+        display: inline;
+    }
+
+    .itens_menu li {
+        display: inline;
+        font-size: 1.2em;
+        padding: 0.5%;
+        margin-left: 10px;
+    }
+
+    .itens_menu a:visited, .itens_menu a:link{
+        text-decoration: none;
+        text-shadow: 2px 2px white;
+        text-align: center;
+        padding: 1%;
+    }
     
-  }
+    .itens_menu a:hover{
+        background-color: rgba(9, 7, 6, 0.4);
+    }    
+
+    .logo {
+        width: 20%;
+        text-align: left;
+        margin-left: 8%;
+    }
+
+    .banner {
+        margin-top: 5%;       
+    }
+
+    .descer {
+        margin-top: 10%;
+    }
+
+}
+
+  
 
